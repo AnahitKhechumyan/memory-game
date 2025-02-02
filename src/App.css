@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+ 
+.cards{
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 99%;
+  justify-content: center;
+  align-content: center;
+}
+
+.card{
+  width: auto;
+  height: 80px;
+  background-color: rgba(243, 234, 234, 0.5) !important;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row !important;
+  color:rgb(145, 17, 17) ;
+  font-size: 22px;
+  box-shadow: 10px 15px 20px rgb(46, 42, 42) !important;
+}
+.card:first-child{
+  margin-top: 22px !important;
+}
+
+input{
+  text-align: center;
+  margin-top: 6px;
+  height: 70px;
+  width: 70%;
+  background-color: rgba(243, 234, 234, 0.5) !important;
+} 
+ 
+
+.check{
+  border: none;
+  color: rgb(107, 105, 105);
+  width: 29% ;
+  height: 70px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: rgba(243, 234, 234, 0.5);
+  cursor: pointer;
+}
+
+p{
+  color: rgb(40, 214, 40) ;
+  font-size: 30px;
+  font-weight: bold;
+} 
+ 
+
+  
+    
